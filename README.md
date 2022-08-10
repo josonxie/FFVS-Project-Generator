@@ -1,4 +1,9 @@
 FFVS-Project-Generator
+
+１,需要先编译 fdk-aac 
+2, 生产 ffmpeg_generator.exe 然后把文件文件拷到 Source 里面，然后执行(第二点已经做完，并在source 里有
+	ffmpeg_generator.exe --enable-gpl --enable-version3 --disable-bzlib --disable-iconv --disable-zlib --disable-lzma --disable-sdl --toolchain=msvc
+3，然后，可以FFmpeg/SMP/用2019 打开ffmpeg_deps.sln，进行编译。 
 =============
 [![Build status](https://ci.appveyor.com/api/projects/status/g6qqnx5t3qj60pei?svg=true)](https://ci.appveyor.com/project/Sibras/ffvs-project-generator)
 [![Github All Releases](https://img.shields.io/github/downloads/ShiftMediaProject/FFVS-Project-Generator/total.svg)](https://github.com/ShiftMediaProject/FFVS-Project-Generator/releases)
